@@ -1,0 +1,25 @@
+
+h2{
+    font-family: 'Noticia Text', serif;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.story{
+    font-family: 'Noticia Text', serif;
+    font-size: 16px;
+    border-radius: 18px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.puzzle{
+    width: 200px;
+    height: auto;
+    border-style: outset;
+    border-width: 5px;
+    float: right;
+    transform: rotate(10deg);
+    margin-top: 100px;
+    margin-left: 20px;
+}

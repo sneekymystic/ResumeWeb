@@ -1,0 +1,85 @@
+.work{
+  border-radius: 14px;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Noticia Text', serif;
+    padding-left: 5px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* .jobs{
+    padding-left: 5px;
+} */
+h4 a{
+  color: darkgrey;
+}
+
+.panel-body{
+  padding-bottom: 10px;
+}
+.content-wrap{
+    padding: 15px;
+    font-family: 'Noticia Text', serif;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 18px
+}
+
+.work-icon{
+    padding-top: 30px;
+    text-align: center;
+    border: 6px solid;
+    width: 165px;
+    border-radius: 100%;
+    height: 135px;
+    margin: auto;
+    background: gold;
+    color: #ECB617;
+    box-shadow: 5px 0px #B27D11;
+}
+
+ /* WebKit and Opera browsers */
+ @-webkit-keyframes spinner {
+    from { -webkit-transform: rotateY(0deg);    }
+    to   { -webkit-transform: rotateY(-360deg); }
+  }
+
+  /* all other browsers */
+  @keyframes spinner {
+    from {
+      -moz-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+    }
+    to {
+      -moz-transform: rotateY(-360deg);
+      -ms-transform: rotateY(-360deg);
+      transform: rotateY(-360deg);
+    }
+  }
+#spinner {
+    -webkit-animation-name: spinner;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 5s;
+
+    animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+  #spinner:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+
+ 

@@ -1,0 +1,91 @@
+.content-wrap{
+    padding-top:7px;
+}
+/* Header Elements */
+.home-header
+{
+    padding-bottom: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    margin-top: 10px;
+    background-color: rgb(255, 184, 209);
+    color: rgb(86, 82, 84);
+    border-radius: 14px;
+}
+
+.home-header h1,
+.home-header h2 {
+    margin: 10px;
+}
+
+.home-header h1{
+    margin-top: -1px;
+    padding-top: 15px;
+    font-family: 'Noticia Text', serif;
+}
+
+.home-header h2 {
+    padding-bottom: 10px;
+}
+
+h4{
+    font-size: 1.2rem;
+    display: inline;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 4px white dashed;
+    padding: 5px;
+    shape-image-threshold: 0.5;
+    shape-outside: circle(50%);
+    margin-right: 18px;
+    float: left;
+    height: 200px;   
+}
+
+.intro{
+    font-size: 1.2rem;
+}
+
+/* Skill Elements */
+.skillset{
+    display: initial;
+    margin-left: 5px;
+}
+.skill-tag{
+    background: purple;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: outset;
+}
+/* Download Button Elements  */
+.btn-container {
+    text-align: right;
+    margin-right: 5px;
+    padding-top: 2rem;
+}
+
+.btn-download{
+    height: 50px;
+    font-size: 14px;
+    border-radius: 10%;
+    border-width: 2px;
+    font-size: 1.1rem;
+    background-color: lavenderblush;
+    color: darkslategrey;
+}
+
+.btn-download:hover{
+    transition: transform .2s ease-in;
+    transform: scale(1.09);
+}
+
+

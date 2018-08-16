@@ -1,0 +1,26 @@
+.education-icon{
+    color: black;
+ 
+}
+
+h2{
+    /* background-image: radial-gradient(circle, #d6311a, #c91332, #b60043, #9e004e, #830855); */
+    font-size: 30px;
+    font-family: 'Noticia Text', serif;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.schools{
+    padding-left: 5px;
+}
+
+.education{
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 14px;
+}
+
+.education-icon{
+    text-align: center;
+}

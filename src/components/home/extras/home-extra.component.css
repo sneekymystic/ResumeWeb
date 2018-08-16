@@ -1,0 +1,65 @@
+h2{
+    font-size: 30px;
+    font-family: 'Noticia Text', serif;
+    padding-left: 5px;
+    text-align: center;
+}
+.extracurricular{
+    margin-top: 15px;
+    border-radius: 14px;
+    padding-bottom: 10px;
+}
+.content-wrap{
+    padding: 10px;
+
+}
+.upb-img-container{
+    margin-top: -25px;
+    margin-right: 25px;
+    float:right;
+    transform: rotate(20deg);
+}
+
+.upb-img{
+    width: 400px;
+    height: auto;
+    border: 8px white solid;  
+}
+
+.tape{
+    margin-left: 180px;
+    position: relative;
+    top: 10px;
+    z-index: 10;
+    background-color:rgba(280,255,255,.8);;
+    height: 40px;
+    width: 40px;
+    align-content: center;
+}
+
+/* Image 2 */
+.upb-img2-container{
+  
+    margin-right: 30px;
+    float:right;
+    transform: rotate(-10deg);
+    position: absolute;
+    right: 27px;
+    margin-top: 250px;
+}
+.htu-img{
+    width: 300px;
+    height: auto;
+    border: 8px white solid;  
+}
+
+.tape2{
+    margin-left: 135px;
+    position: relative;
+    top: 10px;
+    z-index: 10;
+    background-color:rgba(280,255,255,.8);;
+    height: 40px;
+    width: 40px;
+    align-content: center;
+}

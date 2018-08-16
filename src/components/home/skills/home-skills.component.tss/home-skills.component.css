@@ -1,0 +1,71 @@
+
+h2, h4, h5{
+    font-family: 'Noticia Text', serif;
+}
+
+h2{
+    padding-left: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.language-list > li,.framework-list>li ,.tools-list>li{
+    display: inline-block;
+    margin: 3px;
+}
+
+.language-skill{
+    background: lightseagreen;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: outset;
+}
+
+.framework-skill{
+    background: burlywood;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: outset;
+}
+
+.tool-skill{
+    background: lightcoral;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: outset;
+}
+.skills{
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 14px;
+}
+
+.skills-icon{  
+    text-align: center;
+}
+
+.skills-icon > i{
+    color: #13c520f2;
+}
+
+
+
